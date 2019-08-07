@@ -4,17 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
     "start": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gatsby": "^2.13.50",
+    "@mdx-js/mdx": "^1.1.6",
+    "@mdx-js/react": "^1.1.6",
+    "gatsby": "^2.13.52",
+    "gatsby-plugin-mdx": "^1.0.23",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-plugin-typescript": "^2.1.2",
+    "grommet": "^2.7.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "@mdx-js/mdx": "^1.1.4",
-    "@mdx-js/react": "^1.1.4",
-    "gatsby-plugin-mdx": "^1.0.22"
+    "styled-components": "^4.3.2",
+    "typescript": "^3.5.3"
   }
 }
